@@ -13,3 +13,10 @@ def lee_fichero_pacientes(nombre_fich):
             tupla=Pacientes(cod_paciente,colesterol,trigliceridos,hemoglobina,sexo,fecha1)
             lista.append(tupla)
     return lista
+
+Funciones implementadas:
+    1-Una función que te devuelve una lista de tuplas igual que la original pero pero solo con aquellos registros que verifican una condición. En este caso he puesto que devuelva una lista de tuplas registrado por mujeres.
+    2-Una función que devuelva la suma, promedio o un cálculo sobre las tuplas o parte de ellas. En esta función he puesto que nos devueva la media de trigliceridos en los hombres.
+    3-Función que obtenga una lista con n registros ordenados de mayor a menor por un campo determinado de entre los que cumplan una condición. Para esta, la función nos devuelve una lista con los 5 pacientes que más colesterol hay registrados.
+    4-Función que obtenga un máximo o un mínimo respecto a algún campo determinado. En este caso la función nos devuelve el máximo de colesterol registrado en una mujer.
+    5-Cualquier función del tipo de las funciones adicionales que explicaremos con el proyecto Nombres. En esta última, la función nos devuelve el colesterol más alto en una mujer si la mujer tiene una hemoglobina por debajo de 6.0.
